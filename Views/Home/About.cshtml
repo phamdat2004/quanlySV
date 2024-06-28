@@ -1,0 +1,157 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu về Website Quản lý Sinh viên</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: pink;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: pink 3px solid;
+        }
+
+            header a {
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+
+            header ul {
+                padding: 0;
+                list-style: none;
+            }
+
+            header li {
+                float: left;
+                display: inline;
+                padding: 0 20px 0 20px;
+            }
+
+            header #branding {
+                float: left;
+            }
+
+                header #branding h1 {
+                    margin: 0;
+                }
+
+            header nav {
+                float: right;
+                margin-top: 10px;
+            }
+
+            header .highlight, header .current a {
+                color: #e8491d;
+                font-weight: bold;
+            }
+
+            header a:hover {
+                color: #cccccc;
+                font-weight: bold;
+            }
+
+        .intro, .features, .contact {
+            padding: 20px 0;
+            text-align: center;
+        }
+
+            .features .feature-list {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            .features .feature {
+                flex: 1;
+                padding: 20px;
+                margin: 10px;
+                background: #fff;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+            }
+
+        footer {
+            background: pink;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Website Quản lý Sinh viên</h1>
+            
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <h2>Giới Thiệu</h2>
+            <p>Chào mừng bạn đến với hệ thống quản lý sinh viên! Website của chúng tôi giúp việc quản lý thông tin sinh viên trở nên dễ dàng và hiệu quả hơn.</p>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Tính Năng Chính</h2>
+            <div class="feature-list">
+                <div class="feature">
+                    <h3>Quản lý Thông tin Sinh viên</h3>
+                    <p>Dễ dàng thêm, sửa, xóa và xem thông tin chi tiết của từng sinh viên.</p>
+                </div>
+                <div class="feature">
+                    <h3>Quản lý Lớp học</h3>
+                    <p>Theo dõi danh sách lớp học, phân công sinh viên vào các lớp học khác nhau.</p>
+                </div>
+                <div class="feature">
+                    <h3>Báo cáo và Thống kê</h3>
+                    <p>Xuất báo cáo và thống kê chi tiết về tình hình học tập của sinh viên.</p>
+                </div>
+                <div class="feature">
+                    <h3>Giao diện Thân thiện</h3>
+                    <p>Giao diện đơn giản, dễ sử dụng, phù hợp với mọi đối tượng người dùng.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Liên Hệ</h2>
+            <p>Nếu bạn có bất kỳ câu hỏi hoặc phản hồi nào, vui lòng liên hệ với chúng tôi qua địa chỉ email: support@studentmanagement.com hoặc số điện thoại: (123) 456-7890.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Website Quản lý Sinh viên. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
